@@ -45,8 +45,8 @@ def add_word(num, nam, loc, sfname):
         combine.paste(bg, (0, new_h))
         combine.save(os.path.join(out_path, 'gallery_' + num.zfill(3) +'.jpg'))
 
-path = r'C:\Users\WenChu\Desktop\temp'
-out_path = r'C:\Users\WenChu\Desktop\Donee3'
+path = r'pathp'
+out_path = r'out_path'
 list = os.listdir(path)
 for pic in list:
     txt = pic.split('.')[1]
