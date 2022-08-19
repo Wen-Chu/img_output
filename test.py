@@ -45,7 +45,7 @@ def add_word(num, nam, loc, sfname):
         combine.paste(bg, (0, new_h))
         combine.save(os.path.join(out_path, 'gallery_' + num.zfill(3) +'.jpg'))
 
-path = r'pathp'
+path = r'path'
 out_path = r'out_path'
 list = os.listdir(path)
 for pic in list:
